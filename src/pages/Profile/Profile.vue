@@ -10,13 +10,13 @@
               <p class="user-info-top">登录/注册</p>
               <p>
                 <span class="user-icon">
-                  <i class="iconfont icon-shouji icon-mobile"></i>
+                  <i class="iconfont icon-customer-service"></i>
                 </span>
-                <span class="icon-mobile-number">暂无绑定手机号</span>
+                <span class="icon-customer-service-number">暂无绑定手机号</span>
               </p>
             </div>
             <span class="arrow">
-              <i class="iconfont icon-jiantou1"></i>
+              <i class="iconfont icon-arrow-right"></i>
             </span>
           </router-link>
       </section>
@@ -40,36 +40,36 @@
           <!-- 我的订单 -->
           <a href='javascript:' class="my_order">
           <span>
-            <i class="iconfont icon-order-s"></i>
+            <i class="iconfont icon-icon-test1"></i>
           </span>
           <div class="my_order_div">
               <span>我的订单</span>
               <span class="my_order_icon">
-              <i class="iconfont icon-jiantou1"></i>
+              <i class="iconfont icon-arrow-right"></i>
               </span>
           </div>
           </a>
           <!-- 积分商城 -->
           <a href='javascript:' class="my_order">
             <span>
-            <i class="iconfont icon-jifen"></i>
+            <i class="iconfont icon-icon-test2"></i>
             </span>
             <div class="my_order_div">
                 <span>积分商城</span>
                 <span class="my_order_icon">
-                  <i class="iconfont icon-jiantou1"></i>
+                  <i class="iconfont icon-arrow-right"></i>
                 </span>
             </div>
           </a>
           <!-- 硅谷外卖会员卡 -->
           <a href="javascript:" class="my_order">
               <span>
-                <i class="iconfont icon-vip"></i>
+                <i class="iconfont icon-explain"></i>
               </span>
               <div class="my_order_div">
                   <span>硅谷外卖会员卡</span>
                   <span class="my_order_icon">
-                    <i class="iconfont icon-jiantou1"></i>
+                    <i class="iconfont icon-arrow-right"></i>
                   </span>
               </div>
           </a>
@@ -78,12 +78,12 @@
               <!-- 服务中心 -->
               <a href="javascript:" class="my_order">
               <span>
-                <i class="iconfont icon-fuwu"></i>
+                <i class="iconfont icon-attachment"></i>
               </span>
               <div class="my_order_div">
                       <span>服务中心</span>
                       <span class="my_order_icon">
-                        <i class="iconfont icon-jiantou1"></i>
+                        <i class="iconfont icon-arrow-right"></i>
                       </span>
               </div>
               </a>
@@ -178,10 +178,10 @@
                     margin-right 5px
                     width 20px
                     height 20px
-                    .icon-mobile
-                      font-size 30px
+                    .icon-customer-service
+                      font-size 28px
                       vertical-align text-top
-                  .icon-mobile-number
+                  .icon-customer-service-number
                     font-size 14px
                     color #fff
               .arrow
@@ -190,7 +190,7 @@
                 position absolute
                 right 15px
                 top 40%
-                .icon-jiantou1
+                .icon-arrow-right
                   color #fff
                   font-size 5px
           .profile_info_data
@@ -248,13 +248,13 @@
                 >.iconfont
                   margin-left -10px
                   font-size 30px
-                .icon-order-s
+                .icon-icon-test1
                   color #02a774
-                .icon-jifen
+                .icon-icon-test2
                   color #ff5f3e
-                .icon-vip
+                .icon-explain
                   color #f90
-                .icon-fuwu
+                .icon-attachment
                   color #02a774
               .my_order_div
                 width 100%
@@ -269,7 +269,7 @@
                 .my_order_icon
                   width 10px
                   height 10px
-                  .icon-jiantou1
+                  .icon-arrow-right
                     color #bbb
                     font-size 10px
   

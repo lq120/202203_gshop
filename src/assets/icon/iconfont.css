@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3236443 */
-  src: url('iconfont.woff2?t=1647157026470') format('woff2'),
-       url('iconfont.woff?t=1647157026470') format('woff'),
-       url('iconfont.ttf?t=1647157026470') format('truetype');
+  src: url('iconfont.woff2?t=1647171613381') format('woff2'),
+       url('iconfont.woff?t=1647171613381') format('woff'),
+       url('iconfont.ttf?t=1647171613381') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,50 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "\e665";
+}
+
+.icon-chart-bar:before {
+  content: "\e667";
+}
+
+.icon-attachment:before {
+  content: "\e668";
+}
+
+.icon-customer-service:before {
+  content: "\e66a";
+}
+
+.icon-explain:before {
+  content: "\e66e";
+}
+
+.icon-home:before {
+  content: "\e674";
+}
+
+.icon-menu:before {
+  content: "\e677";
+}
+
+.icon-refresh:before {
+  content: "\e67b";
+}
+
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
+.icon-close-bold:before {
+  content: "\e686";
+}
+
+.icon-select-bold:before {
+  content: "\e687";
 }
 
 .icon-wode:before {
