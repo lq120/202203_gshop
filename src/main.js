@@ -5,8 +5,14 @@
 import Vue from 'vue';
 import App from './App';
 
+import { Button } from 'mint-ui'
+
 import router from './router';
 import store from './store'
+
+import './mock/mockServer'
+
+Vue.component(Button.name, Button) //<mt-button></mt-button>
 
 Vue.config.productionTip = false;
 
